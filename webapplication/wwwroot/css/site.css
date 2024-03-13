@@ -20,3 +20,27 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+
+td, tr {
+    width: 500px;
+    border: 2px black solid;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav li {
+    font-weight: bold;
+}
+
+.checkout {
+    margin: 10px;
+    padding-top: 10px
+}
+
+#welcome {
+    font-style: italic;
+}
