@@ -1,0 +1,38 @@
+﻿@{
+	ViewData["Title"] = "Shop";
+}
+@{
+    <h1>@ViewData["Title"]</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Quantity</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Apples</td>
+                <td>1 kg</td>
+                <td><a href="/Order/Buy?id=1">Buy</a></td>
+            </tr>
+            <tr>
+                <td>Bread</td>
+                <td>1 loaf</td>
+                <td><a href="/Order/Buy?id=2">Buy</a></td>
+            </tr>
+            <tr>
+                <td>Milk</td>
+                <td>1 liter</td>
+                <td><a href="/Order/Buy?id=3">Buy</a></td>
+            </tr>
+            <tr>
+                <td>Eggs</td>
+                <td>1 dozen</td>
+                <td><a href="/Order/Buy?id=4">Buy</a></td>
+            </tr>
+        </tbody>
+    </table>
+}
